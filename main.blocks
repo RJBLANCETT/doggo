@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="q8HMrMv6%0.7hQbR5ZKi" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="}Cr_C!TxXom%(FVgVX:g"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . # . # 
+        . # . # .
+        `</field></block></statement></block><block type="device_forever" id="1[r]-Wx0rj_2Y4w],dn]" x="205" y="0"></block><block type="device_gesture_event" id="}Ncb)KA2.8D:KCyGJ!4R" x="408" y="178"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id=")(^Y!fM0:=m(UNku}8z~"><field name="i">IconNames.Silly</field><next><block type="device_pause" id="o~2m6a@[,XnJwwPn5P~:"><value name="pause"><shadow type="timePicker" id="Z@4,KvJw-yo4zjmvP/-,"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="3E:n6gfPL{P`(O=Bo5-I"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . # . # 
+        . # . # .
+        `</field></block></next></block></next></block></statement></block><block type="device_pin_event" id="^bi5I:tpfQ7aJR3!:/G9" x="142" y="328"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="basic_show_icon" id="8fTF?3?Tq^`{ozGDE(G)"><field name="i">IconNames.Angry</field></block></statement></block><block type="device_pin_event" id="SqZcl6)_qFZY@r.)]!:k" x="150" y="483"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="basic_show_icon" id="5KHdbCc^Hfm=uOU^[{zw"><field name="i">IconNames.Meh</field></block></statement></block></xml>
